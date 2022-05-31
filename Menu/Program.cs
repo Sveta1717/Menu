@@ -27,6 +27,7 @@ namespace Menu
         static void Exit()
         {
             Console.WriteLine("До побачення! Повертайтеся живими!\n");
+            Thread.Sleep(1000);
             Console.Clear();
         }
 
